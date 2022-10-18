@@ -1,0 +1,87 @@
+.order {
+  background-image: url("../../../images/Orders.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.order .container {
+  padding: 26px;
+}
+
+.order-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 170px 0px;
+}
+
+.order-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 110%;
+  color: #ffffff;
+  width: 808px;
+}
+
+.order-texts {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.order-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  width: 780px;
+  margin-top: 28px;
+}
+
+.order-link {
+  display: flex;
+  align-items: center;
+  margin-top: 42px;
+}
+
+.order-links {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #ff5900;
+  backdrop-filter: blur(2.5px);
+  border-radius: 100px;
+  padding: 20px 40px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.order-links:hover {
+  background: #ca4600;
+  backdrop-filter: blur(2.5px);
+}
+
+.order-link2 {
+  margin-left: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(2.5px);
+  border-radius: 100px;
+}
+
+.order-link2:hover {
+  background: #ca4600;
+  backdrop-filter: blur(2.5px);
+  border-radius: 100px;
+  border: 1px solid #ca4600;
+}

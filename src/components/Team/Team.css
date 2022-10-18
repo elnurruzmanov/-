@@ -1,0 +1,48 @@
+.team .container {
+  padding: 20px;
+}
+
+.team-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #212121;
+  margin-bottom: 60px;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team-item {
+  width: 360px;
+}
+
+.team-item:hover{
+  cursor: pointer;
+}
+
+.team-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+  margin-top: 20px;
+}
+
+.team-job {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #212121;
+  opacity: 0.5;
+  margin-top: 4px;
+}

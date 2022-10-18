@@ -1,0 +1,21 @@
+.sities .container {
+  padding: 120px 0px;
+}
+
+.sities-title {
+  width: 590px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #212121;
+}
+
+.sities-span{
+  color: #FF5900;
+}
+
+.step{
+  margin-top: 60px;
+}

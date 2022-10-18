@@ -1,0 +1,28 @@
+.clients .container {
+  padding: 10px 0px;
+}
+
+.clients-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #212121;
+}
+
+.clients-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.clients-item{
+  width: 260px;
+  margin: 30px 0px;
+}
+
+.clients-item:hover{
+  cursor: pointer;
+}

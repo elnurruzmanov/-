@@ -1,0 +1,41 @@
+.design .container {
+  padding: 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.design {
+  background-image: url("../../../images/designPhoto.png");
+  background-repeat: no-repeat;
+}
+
+.design-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.design-link {
+  background: #ff5900;
+  backdrop-filter: blur(2.5px);
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 20px 40px;
+  text-decoration: none;
+  margin-top: 52px;
+  transition: 0.4s;
+}
+
+.design-link:hover{
+  background: #CA4600;
+}

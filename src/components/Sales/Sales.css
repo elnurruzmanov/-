@@ -1,0 +1,52 @@
+.sales .container {
+  padding: 120px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sales {
+  background-image: url("../../images/bk.png");
+  background-repeat: no-repeat;
+}
+
+.sales-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 110%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sales-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  width: 700px;
+  margin-top: 28px;
+}
+
+.sales-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px 40px;
+  background: #ff5900;
+  backdrop-filter: blur(2.5px);
+  border-radius: 100px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 42px;
+}

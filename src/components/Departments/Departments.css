@@ -1,0 +1,74 @@
+.department .container {
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.department-image {
+  width: 360px;
+}
+
+.department-info_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #212121;
+}
+
+.department-info {
+  width: 700px;
+}
+
+.department-infos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.info_texts {
+  width: 360px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #212121;
+  opacity: 0.5;
+}
+
+.department-infos-order {
+  width: 350px;
+  margin-left: 40px;
+}
+
+.infos_order {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.infos_link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #ff5900;
+  backdrop-filter: blur(2.5px);
+  border-radius: 100px;
+  padding: 20px 30px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.infos_link:hover{
+  background-color: #CA4600;
+}

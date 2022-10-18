@@ -1,0 +1,42 @@
+.feedback .container {
+  padding: 100px 0px;
+}
+
+.feedback-title {
+  margin-bottom: 56px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #212121;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 27px !important;
+  color: #212121;
+  border: 1px solid #333333;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  color: #212121;
+}
+
+.feedback-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ff5900;
+  text-decoration: none;
+  padding: 15px 20px;
+  border: 1px solid #ff5900;
+  margin-left: 520px;
+  border-radius: 50px;
+}

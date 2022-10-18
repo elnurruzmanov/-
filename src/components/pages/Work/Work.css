@@ -1,0 +1,207 @@
+.work .container {
+  padding: 30px 0px;
+}
+
+.works-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work-panel_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  padding: 60px 40px;
+}
+
+.work-panel_info{
+  background-image: url("../../../images/Screen.png");
+  background-repeat: no-repeat;
+  background-position:bottom 0% right 5% ;
+}
+
+.work-offer_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  padding: 60px 40px;
+}
+
+.work-offer_info{
+  background-image: url("../../../images/WorksTwo.png");
+  background-repeat: no-repeat;
+  background-position:bottom 0% right 0% ;
+}
+
+.work-start_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  padding: 60px 40px;
+}
+
+.work-start_info{
+  background-image: url("../../../images/workStart.png");
+  background-repeat: no-repeat;
+  background-position:bottom 0% right 0% ;
+}
+
+.work-control_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  padding: 60px 40px;
+}
+
+.work-control_info{
+  background-image: url("../../../images/workControl.png");
+  background-repeat: no-repeat;
+  background-position:bottom 0% right 0% ;
+}
+
+.work-result_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  padding: 60px 40px;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  background: #f4f4f4 !important;
+  border-right: 1px solid rgba(51, 51, 51, 0.2) !important;
+  padding: 35px 45px !important;
+  width: 250px !important;
+  height: 90px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: 0.4s !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover{
+  color: #ffffff !important;
+  background: #ff5900 !important;
+  cursor: pointer;
+}
+
+.work-result_info{
+  background-image: url("../../../images/workResult.png");
+  background-repeat: no-repeat;
+  background-position:bottom 0% right 0% ;
+}
+
+.css-19kzrtu{
+  padding: 0px !important;
+}
+
+.work-panel-texts {
+  width: 684px;
+  height: 180px;
+}
+
+.works-img {
+  width: 240px;
+}
+
+.work-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.work-panel-text{
+  display: flex;
+  /* align-items: center; */
+}
+
+.work-span::before{
+  content: "• " !important;
+}
+
+.work-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #212121;
+  margin-bottom: 60px;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background: #f4f4f4 !important;
+  border-right: 1px solid rgba(51, 51, 51, 0.2) !important;
+  padding: 35px 45px !important;
+  width: 250px !important;
+  height: 90px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: 0.4s !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 140% !important;
+  text-align: center !important;
+  color: #212121 !important;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected:hover {
+  color: #ffffff !important;
+  background: #ff5900 !important;
+  cursor: pointer;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+  display: none;
+}
+
+.works-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #212121;
+  text-decoration: none;
+  background: #f4f4f4;
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+  padding: 35px 45px;
+  width: 250px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.works-link:nth-child(1) {
+  color: #ffffff;
+  background-color: #ff5900;
+}
+
+.works-link:hover {
+  color: #ffffff;
+  background-color: #ff5900;
+}
