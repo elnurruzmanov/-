@@ -39,4 +39,13 @@
   border: 1px solid #ff5900;
   margin-left: 520px;
   border-radius: 50px;
+  margin-top: 10px;
+  transition: 0.4s;
+}
+
+.feedback-link:hover{
+  background: #ca4600;
+  backdrop-filter: blur(2.5px);
+  border-radius: 100px;
+  color: #fff;
 }

@@ -99,8 +99,12 @@
 }
 
 .digital-items_link:hover {
+  background: #ca4600;
+  backdrop-filter: blur(2.5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 100px;
   color: #fff;
-  border: 1px solid #fff;
 }
 
 .digital-items_list {

@@ -15,6 +15,8 @@ import Creation from '../Creation/Creation';
 import Sales from '../Sales/Sales';
 import Cost from '../Cost/Cost';
 import Stages from '../Stages/Stages';
+import Ready from '../Ready/Ready';
+import Promotion from '../Promotion/Promotion';
 
 const Websites = () => {
   return (
@@ -50,6 +52,12 @@ const Websites = () => {
       </Routes>
       <Routes>
         <Route path="/" element={<Stages />} exact></Route>
+      </Routes>
+      <Routes>
+        <Route path="/" element={<Ready />} exact></Route>
+      </Routes>
+      <Routes>
+        <Route path="/" element={<Promotion />} exact></Route>
       </Routes>
     
     </div>

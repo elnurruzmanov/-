@@ -30,3 +30,80 @@
   line-height: 140%;
   color: #212121;
 }
+
+.react-accordion {
+  margin-top: 40px;
+}
+
+.MuiTypography-root{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+  margin:10px 0px !important;
+  border: none !important;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type{
+  border: none !important;
+}
+.accordion-typography {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.accordion-typography:hover{
+  color:#FF5900
+}
+
+.accordion-typography-span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  opacity: 0.5;
+}
+
+.accordion-typography-span:hover{
+  color:#FF5900
+}
+
+/* .accordion{
+  width: 800px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.content{
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content .show{
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier( 1,0,1,0);
+} */
