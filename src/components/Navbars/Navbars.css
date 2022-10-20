@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 26px
+  padding: 26px;
 }
 
 .home-navbars-title {
@@ -66,6 +66,15 @@
   padding: 15px;
   border-radius: 50px;
 }
+
+/* .navbars-link:hover {
+  background: #ca4600;
+  color: #fff;
+} */
+
+/* .navbars-phone-text:hover{
+  color: #fff;
+} */
 
 .phone {
   margin-right: 9.67px;
